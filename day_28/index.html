@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>30 Days Of JavaScript Challenge Leaderboard</h1>
+
+            <div class="parent">
+                <input type="text" class="inpt" id="fname" placeholder="FIRST NAME">
+                <input type="text" class="inpt" id="lname" placeholder="LAST NAME">
+                <input type="text" class="inpt" id="country" placeholder="COUNTRY">
+                <input type="text" class="inpt" id="score" placeholder="PLAYER SCORE">
+                <button class="btn">Add Player</button>
+            </div>
+            <p></p>
+        </div>
+        <div class="main">
+            <div class="board">
+                <div class="Fname">MARTHA YOHANES<br><p class="date">APR 30, 2023 01:39</p></div>
+                <div class="Country">FINLAND</div>
+                <div class="Score">85</div>
+                <div class="Btn">
+                    <button class="Bbtn btn1" onclick="deleteDiv(this)">🗑️</button>
+                    <button class="Bbtn btn2" onclick="addFive(this)">+5</button>
+                    <button class="Bbtn btn3" onclick="minsFive(this)">-5</button>
+                </div>
+            </div>
+            <div class="board">
+                <div class="Fname">DAVID SMITH<br><p class="date">APR 30, 2023 01:39</p></div>
+                <div class="Country">UNITED KINGDOM</div>
+                <div class="Score">80</div>
+                <div class="Btn">
+                    <button class="Bbtn btn1" onclick="deleteDiv(this)">🗑️</button>
+                    <button class="Bbtn btn2" onclick="addFive(this)">+5</button>
+                    <button class="Bbtn btn3" onclick="minsFive(this)">-5</b>
+                </div>
+            </div>
+            <div class="board">
+                <div class="Fname">ASABENEH YETAYEH<br><p class="date">APR 30, 2023 01:39</p></div>
+                <div class="Country">FINLAND</div>
+                <div class="Score">75</div>
+                <div class="Btn">
+                    <button class="Bbtn btn1" onclick="deleteDiv(this)">🗑️</button>
+                    <button class="Bbtn btn2" onclick="addFive(this)">+5</button>
+                    <button class="Bbtn btn3" onclick="minsFive(this)">-5</button>
+                </div>
+            </div>
+            <div class="board">
+                <div class="Fname">MATHIAS ELIAS<br><p class="date">APR 30, 2023 01:39</p></div>
+                <div class="Country">SWEDEN</div>
+                <div class="Score">70</div>
+                <div class="Btn">
+                    <button class="Bbtn btn1" onclick="deleteDiv(this)">🗑️</button>
+                    <button class="Bbtn btn2" onclick="addFive(this)">+5</button>
+                    <button class="Bbtn btn3" onclick="minsFive(this)">-5</button>
+                </div>
+            </div>
+
+        </div>
+                      
+    <script src="js/script.js"></script>
+    </body>
+</html>
