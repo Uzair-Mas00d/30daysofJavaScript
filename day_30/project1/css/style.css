@@ -1,0 +1,252 @@
+/* header div */
+.head{
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.headH{
+    font-size: 40px;
+    margin-bottom: 0px;
+    color:  #FEBA4F;
+}
+
+.headP{
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.headP2{
+    margin-top: 2px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color:  #FEBA4F;
+}
+
+/* search-div */
+.search-div{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.search{
+    width: 35%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color: #FEBA4F;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.btn-div{
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+.btn{
+    background-color: #FEBA4F;
+    border: 1px solid #FEBA4F;
+    width: 8%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.Btn4{
+    position: relative;
+    right: 10px;
+    bottom: -5px;
+    background-color: white;
+    border: 0;
+}
+
+.Btn4>img{
+    position: relative;
+    height: 30px;
+}
+
+/* main div */
+.main{
+    margin-top: 10px;
+    background-color: #F5F5F5;
+    padding-top: 10px;
+    overflow:auto;
+}
+
+.child{    
+    height: 149px;
+    width: 190px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 90px;
+    box-shadow: 6px -1px 5px -2px rgba(0,0,0,0.12);
+    float: left;
+    background-color: white;
+}
+
+.name{
+    text-align: center;
+    color: #FEBA4F;
+}
+
+.capital{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.language{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.popluation{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-left: 10px;
+    color: gray;
+}
+
+/* button div */
+.DivBtn{
+    text-align: center;
+    margin-top: 1px;
+    padding-top: 25px;
+    padding-bottom: 2px;
+    background-color: #F8F8FF;  
+    margin-bottom: 2px;
+}
+
+.btn1{
+    margin-right: 3px;
+    background-color: #FEBA4F;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: 1px solid #FEBA4F;
+    border-radius: 3px;
+}
+
+.btn2{
+    background-color: #FEBA4F;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: 1px solid #FEBA4F;
+    border-radius: 3px;
+}
+
+.btnP{
+    margin-top: 8px;
+}
+
+/* graph div */
+.graph{
+    background-color: #F5F5F5;
+    margin-top: 2px;
+    padding-top: 3px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 60%;   
+}
+
+.childW1{
+    width: 85px;
+    text-align: start;
+    margin-bottom: 5px;
+    padding-right: 55px;
+}
+
+.childW2{
+    text-align: start;
+    width: 98px;
+    margin-bottom: 5px;
+}
+
+.child1{
+    width: 85px;
+    text-align: start;
+    margin-bottom: 5px;
+    padding-right: 55px;
+}
+
+.child2{
+    text-align: start;
+    width: 98px;
+    margin-bottom: 5px;
+}
+
+.skill{
+    height: 29px;
+    background-color: #FEBA4F;
+    border-radius: 3px;
+}
+
+.world{
+    width: 99%;
+}
+
+.skill1{
+    width: 18%;
+}
+
+.skill2{
+    width: 16.8%;
+}
+
+.skill3{
+    width: 4.2%;
+}
+
+.skill4{
+    width: 3.3%;
+}
+
+.skill5{
+    width: 2.8%;
+}
+
+.skill6{
+    width: 2.5%;
+}
+
+.skill7{
+    width: 2.4%;
+}
+
+.skill8{
+    width: 2.1%;
+}
+
+.skill9{
+    width: 2%;
+}
+
+.skill10{
+    width: 1.6%;
+}
